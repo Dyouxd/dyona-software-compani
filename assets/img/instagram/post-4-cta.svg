@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="ctaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#1a1140"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#ctaBg)"/>
+  
+  <circle cx="540" cy="400" r="300" fill="#00FF88" opacity="0.05"/>
+  
+  <!-- Ícone -->
+  <g transform="translate(440, 200)">
+    <rect x="0" y="0" width="200" height="200" rx="50" fill="#0D0D0D"/>
+    <text x="100" y="135" font-family="monospace" font-size="70" font-weight="bold"
+          fill="#00FF88" text-anchor="middle">&lt;/&gt;</text>
+  </g>
+  
+  <text x="540" y="520" font-family="'Space Grotesk', sans-serif"
+        font-size="72" font-weight="700" fill="#fff" text-anchor="middle">
+    TEM UMA
+  </text>
+  <text x="540" y="600" font-family="'Space Grotesk', sans-serif"
+        font-size="72" font-weight="700" fill="#fff" text-anchor="middle">
+    IDEIA?
+  </text>
+  
+  <rect x="390" y="640" width="300" height="4" rx="2" fill="#00FF88"/>
+  
+  <text x="540" y="720" font-family="'Inter', sans-serif"
+        font-size="30" fill="#fff" text-anchor="middle">
+    Vamos transformar em
+  </text>
+  <text x="540" y="760" font-family="'Inter', sans-serif"
+        font-size="30" fill="#fff" text-anchor="middle">
+    realidade juntos
+  </text>
+  
+  <!-- Botão CTA -->
+  <rect x="290" y="840" width="500" height="90" rx="45" fill="#00FF88"/>
+  <text x="540" y="900" font-family="'Space Grotesk', sans-serif"
+        font-size="34" font-weight="700" fill="#0D0D0D" text-anchor="middle">
+    📩 FALE CONOSCO
+  </text>
+  
+  <text x="540" y="1000" font-family="'Inter', sans-serif"
+        font-size="24" fill="#fff" text-anchor="middle">
+    dyonasoftwarecompani@gmail.com
+  </text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="elecBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00b894"/>
+      <stop offset="100%" stop-color="#55efc4"/>
+    </linearGradient>
+    <radialGradient id="elecGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#elecBg)"/>
+  <circle cx="300" cy="160" r="220" fill="url(#elecGlow)"/>
+
+  <!-- Raio grande -->
+  <g transform="translate(300, 180)">
+    <path d="M -20 -100 L 40 -100 L 10 -20 L 60 -20 L -30 100 L -5 20 L -55 20 Z"
+          fill="#ffffff" stroke="#0D0D0D" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Mini raios -->
+  <path d="M 100 90 L 115 90 L 108 110 L 125 110 L 95 145 L 105 115 L 88 115 Z" 
+        fill="#ffffff" opacity="0.7"/>
+  <path d="M 500 280 L 515 280 L 508 300 L 525 300 L 495 335 L 505 305 L 488 305 Z" 
+        fill="#ffffff" opacity="0.7"/>
+</svg>

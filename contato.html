@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | Dyona Software Compani</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-icon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <img src="assets/img/logo.svg" alt="Dyona Software Compani">
+    </a>
+    <button class="menu-toggle" aria-label="Menu">☰</button>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="projetos.html">Projetos</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2 class="section-title">Vamos <span>Conversar?</span></h2>
+    <p class="section-subtitle">
+      Preencha o formulário e retornaremos em até 24h.<br>
+      Ou envie direto para <a href="mailto:dyonasoftwarecompani@gmail.com" style="color:var(--roxo);">dyonasoftwarecompani@gmail.com</a>
+    </p>
+
+    <form class="form" 
+          action="https://formsubmit.co/dyonasoftwarecompani@gmail.com" 
+          method="POST">
+
+      <input type="hidden" name="_subject" value="Nova mensagem do site Dyona Software Compani">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <input type="text" name="assunto" placeholder="Assunto">
+
+      <select name="tipo" required>
+        <option value="">Tipo de projeto...</option>
+        <option value="Site">Site</option>
+        <option value="Sistema Web">Sistema Web</option>
+        <option value="Software">Software</option>
+        <option value="Outro">Outro</option>
+      </select>
+
+      <textarea name="mensagem" placeholder="Descreva seu projeto..." required></textarea>
+
+      <button type="submit" class="btn btn-primary">📩 Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-logo">
+      <img src="assets/img/logo.svg" alt="Dyona Software Compani">
+    </div>
+    <div class="socials">
+      <a href="https://github.com/Dyouxd" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/dyonasoftwarecompani" target="_blank">LinkedIn</a>
+      <a href="mailto:dyonasoftwarecompani@gmail.com">E-mail</a>
+    </div>
+    <p class="copy">© 2025 Dyona Software Compani. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

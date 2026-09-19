@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#1a1a1a"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="70" fill="#e17055"/>
+  <text x="30" y="45" font-family="sans-serif" font-size="20" font-weight="700"
+        fill="#fff">🛠 App Tec Inviinga</text>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="70" width="180" height="430" fill="#0f0f0f"/>
+  
+  <rect x="20" y="100" width="140" height="40" rx="8" fill="#e17055"/>
+  <text x="35" y="125" font-family="sans-serif" font-size="13" fill="#fff">📊 Dashboard</text>
+  
+  <rect x="20" y="150" width="140" height="40" rx="8" fill="transparent"/>
+  <text x="35" y="175" font-family="sans-serif" font-size="13" fill="#999">📋 Ordens</text>
+  
+  <rect x="20" y="200" width="140" height="40" rx="8" fill="transparent"/>
+  <text x="35" y="225" font-family="sans-serif" font-size="13" fill="#999">👥 Clientes</text>
+  
+  <rect x="20" y="250" width="140" height="40" rx="8" fill="transparent"/>
+  <text x="35" y="275" font-family="sans-serif" font-size="13" fill="#999">⚙️ Config</text>
+  
+  <!-- Conteúdo -->
+  <rect x="200" y="100" width="280" height="180" rx="12" fill="#242424"/>
+  <text x="220" y="135" font-family="sans-serif" font-size="13" fill="#999">ORDENS ATIVAS</text>
+  <text x="220" y="200" font-family="sans-serif" font-size="52" font-weight="700"
+        fill="#e17055">23</text>
+  <text x="220" y="240" font-family="sans-serif" font-size="12" fill="#55efc4">↑ 5 novas hoje</text>
+  
+  <rect x="500" y="100" width="270" height="180" rx="12" fill="#242424"/>
+  <text x="520" y="135" font-family="sans-serif" font-size="13" fill="#999">CONCLUÍDAS</text>
+  <text x="520" y="200" font-family="sans-serif" font-size="52" font-weight="700"
+        fill="#55efc4">156</text>
+  <text x="520" y="240" font-family="sans-serif" font-size="12" fill="#55efc4">↑ 12% este mês</text>
+  
+  <!-- Tabela -->
+  <rect x="200" y="300" width="570" height="180" rx="12" fill="#242424"/>
+  <text x="220" y="335" font-family="sans-serif" font-size="14" font-weight="600"
+        fill="#fff">Últimas ordens</text>
+  
+  <rect x="220" y="355" width="530" height="30" rx="6" fill="#1a1a1a"/>
+  <text x="240" y="375" font-family="sans-serif" font-size="12" fill="#999">#1234 - Instalação elétrica</text>
+  <text x="650" y="375" font-family="sans-serif" font-size="12" fill="#55efc4">Concluída</text>
+  
+  <rect x="220" y="390" width="530" height="30" rx="6" fill="#1a1a1a"/>
+  <text x="240" y="410" font-family="sans-serif" font-size="12" fill="#999">#1233 - Manutenção</text>
+  <text x="650" y="410" font-family="sans-serif" font-size="12" fill="#e17055">Pendente</text>
+  
+  <rect x="220" y="425" width="530" height="30" rx="6" fill="#1a1a1a"/>
+  <text x="240" y="445" font-family="sans-serif" font-size="12" fill="#999">#1232 - Vistoria</text>
+  <text x="650" y="445" font-family="sans-serif" font-size="12" fill="#55efc4">Concluída</text>
+</svg>

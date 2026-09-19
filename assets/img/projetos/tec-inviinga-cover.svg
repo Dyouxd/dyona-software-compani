@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="tecBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e17055"/>
+      <stop offset="100%" stop-color="#fab1a0"/>
+    </linearGradient>
+    <radialGradient id="tecGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#tecBg)"/>
+  <circle cx="300" cy="160" r="220" fill="url(#tecGlow)"/>
+
+  <!-- Chave inglesa + Martelo -->
+  <g transform="translate(300, 180)">
+    <!-- Chave inglesa -->
+    <g transform="rotate(-30)">
+      <rect x="-15" y="-80" width="30" height="140" rx="8" fill="#ffffff"/>
+      <circle cx="0" cy="-70" r="30" fill="#ffffff"/>
+      <circle cx="0" cy="-70" r="15" fill="#e17055"/>
+    </g>
+    <!-- Martelo -->
+    <g transform="rotate(30) translate(40, 10)">
+      <rect x="-12" y="-30" width="24" height="120" rx="6" fill="#0D0D0D"/>
+      <rect x="-35" y="-55" width="70" height="35" rx="8" fill="#ffffff"/>
+    </g>
+  </g>
+
+  <!-- Engrenagens -->
+  <g transform="translate(100, 100)" opacity="0.6">
+    <circle r="25" fill="none" stroke="#ffffff" stroke-width="8"/>
+    <circle r="8" fill="#ffffff"/>
+  </g>
+  <g transform="translate(510, 300)" opacity="0.6">
+    <circle r="20" fill="none" stroke="#ffffff" stroke-width="7"/>
+    <circle r="6" fill="#ffffff"/>
+  </g>
+</svg>

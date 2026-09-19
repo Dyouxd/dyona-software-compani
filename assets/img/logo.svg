@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 160" width="560" height="160">
+  <defs>
+    <linearGradient id="gradDyona" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#a29bfe"/>
+    </linearGradient>
+    <linearGradient id="gradGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00FF88" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00FF88" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ícone grande -->
+  <g transform="translate(15, 15)">
+    <rect x="0" y="0" width="130" height="130" rx="30" fill="url(#gradDyona)"/>
+    <rect x="0" y="0" width="130" height="130" rx="30" 
+          fill="none" stroke="#a29bfe" stroke-width="1.5" opacity="0.5"/>
+    <path d="M 34 28 L 66 28 C 96 28, 102 48, 102 65 C 102 82, 96 102, 66 102 L 34 102 Z
+             M 48 42 L 48 88 L 66 88 C 84 88, 88 78, 88 65 C 88 52, 84 42, 66 42 Z"
+          fill="#0D0D0D"/>
+    <text x="66" y="74" font-family="monospace" font-size="24" font-weight="bold"
+          fill="#00FF88" text-anchor="middle">&lt;/&gt;</text>
+  </g>
+
+  <!-- Nome grande -->
+  <text x="170" y="78" font-family="'Space Grotesk', sans-serif"
+        font-size="52" font-weight="700" fill="#ffffff" letter-spacing="-1">
+    Dyona
+  </text>
+  <text x="172" y="106" font-family="'Inter', sans-serif"
+        font-size="15" font-weight="600" fill="#a29bfe" letter-spacing="4">
+    SOFTWARE COMPANI
+  </text>
+
+  <rect x="172" y="118" width="90" height="3" rx="1.5" fill="url(#gradGlow)"/>
+</svg>

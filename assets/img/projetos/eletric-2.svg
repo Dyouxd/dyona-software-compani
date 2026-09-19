@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#f1f3f5"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="70" fill="#00b894"/>
+  <text x="30" y="45" font-family="sans-serif" font-size="20" font-weight="700"
+        fill="#fff">⚡ Dashboard</text>
+  
+  <!-- Cards de estatísticas -->
+  <rect x="30" y="100" width="230" height="120" rx="12" fill="#fff"/>
+  <text x="50" y="130" font-family="sans-serif" font-size="11" fill="#666">ORÇAMENTOS</text>
+  <text x="50" y="175" font-family="sans-serif" font-size="36" font-weight="700"
+        fill="#00b894">142</text>
+  <text x="50" y="200" font-family="sans-serif" font-size="11" fill="#00b894">↑ +12% este mês</text>
+  
+  <rect x="285" y="100" width="230" height="120" rx="12" fill="#fff"/>
+  <text x="305" y="130" font-family="sans-serif" font-size="11" fill="#666">FATURAMENTO</text>
+  <text x="305" y="175" font-family="sans-serif" font-size="36" font-weight="700"
+        fill="#0D0D0D">R$ 45k</text>
+  <text x="305" y="200" font-family="sans-serif" font-size="11" fill="#00b894">↑ +8% este mês</text>
+  
+  <rect x="540" y="100" width="230" height="120" rx="12" fill="#fff"/>
+  <text x="560" y="130" font-family="sans-serif" font-size="11" fill="#666">CLIENTES</text>
+  <text x="560" y="175" font-family="sans-serif" font-size="36" font-weight="700"
+        fill="#0D0D0D">87</text>
+  <text x="560" y="200" font-family="sans-serif" font-size="11" fill="#00b894">↑ +5 novos</text>
+  
+  <!-- Gráfico -->
+  <rect x="30" y="250" width="740" height="220" rx="12" fill="#fff"/>
+  <text x="50" y="285" font-family="sans-serif" font-size="14" font-weight="600"
+        fill="#0D0D0D">Faturamento últimos 6 meses</text>
+  
+  <polyline points="80,430 180,380 280,400 380,340 480,360 580,300 680,320" 
+            fill="none" stroke="#00b894" stroke-width="3"/>
+  
+  <circle cx="80" cy="430" r="5" fill="#00b894"/>
+  <circle cx="180" cy="380" r="5" fill="#00b894"/>
+  <circle cx="280" cy="400" r="5" fill="#00b894"/>
+  <circle cx="380" cy="340" r="5" fill="#00b894"/>
+  <circle cx="480" cy="360" r="5" fill="#00b894"/>
+  <circle cx="580" cy="300" r="5" fill="#00b894"/>
+  <circle cx="680" cy="320" r="5" fill="#00b894"/>
+</svg>

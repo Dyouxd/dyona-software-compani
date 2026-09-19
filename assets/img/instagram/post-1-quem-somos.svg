@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D0D0D"/>
+      <stop offset="100%" stop-color="#1a1140"/>
+    </linearGradient>
+    <linearGradient id="roxo1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#a29bfe"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg1)"/>
+  
+  <!-- Círculo decorativo -->
+  <circle cx="540" cy="400" r="250" fill="url(#roxo1)" opacity="0.15"/>
+  
+  <!-- Ícone Dyona -->
+  <g transform="translate(440, 250)">
+    <rect x="0" y="0" width="200" height="200" rx="50" fill="url(#roxo1)"/>
+    <path d="M 55 40 L 100 40 C 150 40, 165 75, 165 100 C 165 125, 150 160, 100 160 L 55 160 Z
+             M 78 68 L 78 132 L 100 132 C 130 132, 135 118, 135 100 C 135 82, 130 68, 100 68 Z"
+          fill="#0D0D0D"/>
+    <text x="100" y="118" font-family="monospace" font-size="44" font-weight="bold"
+          fill="#00FF88" text-anchor="middle">&lt;/&gt;</text>
+  </g>
+  
+  <text x="540" y="560" font-family="'Space Grotesk', sans-serif"
+        font-size="80" font-weight="700" fill="#fff" text-anchor="middle">
+    QUEM SOMOS
+  </text>
+  
+  <rect x="440" y="600" width="200" height="4" rx="2" fill="#00FF88"/>
+  
+  <text x="540" y="680" font-family="'Inter', sans-serif"
+        font-size="34" font-weight="600" fill="#fff" text-anchor="middle">
+    Sites · Sistemas Web · Softwares
+  </text>
+  
+  <text x="540" y="780" font-family="'Inter', sans-serif"
+        font-size="24" fill="#b8b8b8" text-anchor="middle">
+    Soluções digitais sob medida para o
+  </text>
+  <text x="540" y="815" font-family="'Inter', sans-serif"
+        font-size="24" fill="#b8b8b8" text-anchor="middle">
+    seu negócio ou projeto pessoal
+  </text>
+  
+  <text x="540" y="960" font-family="'Space Grotesk', sans-serif"
+        font-size="38" font-weight="700" fill="#a29bfe" text-anchor="middle">
+    @dyonasoftwarecompani
+  </text>
+</svg>
