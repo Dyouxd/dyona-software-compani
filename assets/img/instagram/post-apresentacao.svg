@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <!-- Fundo gradiente -->
+    <linearGradient id="bgPost" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D0D0D"/>
+      <stop offset="100%" stop-color="#1a1140"/>
+    </linearGradient>
+
+    <!-- Glow central -->
+    <radialGradient id="glowPost" cx="50%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#6C5CE7" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#6C5CE7" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Gradiente da logo -->
+    <linearGradient id="logoPost" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#a29bfe"/>
+    </linearGradient>
+
+    <!-- Linha decorativa -->
+    <linearGradient id="linhaPost" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#00FF88"/>
+    </linearGradient>
+
+    <!-- Glow verde sutil -->
+    <radialGradient id="glowGreen" cx="50%" cy="80%" r="40%">
+      <stop offset="0%" stop-color="#00FF88" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00FF88" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Fundo -->
+  <rect width="1080" height="1080" fill="url(#bgPost)"/>
+  <circle cx="540" cy="380" r="500" fill="url(#glowPost)"/>
+  <circle cx="540" cy="950" r="400" fill="url(#glowGreen)"/>
+
+  <!-- Moldura sutil -->
+  <rect x="40" y="40" width="1000" height="1000" rx="40" 
+        fill="none" stroke="#1f1f1f" stroke-width="2"/>
+
+  <!-- Logo ícone no topo -->
+  <g transform="translate(460, 100)">
+    <rect x="0" y="0" width="160" height="160" rx="40" fill="url(#logoPost)"/>
+    <rect x="0" y="0" width="160" height="160" rx="40" 
+          fill="none" stroke="#a29bfe" stroke-width="2" opacity="0.6"/>
+    <path d="M 42 34 L 82 34 C 118 34, 128 58, 128 80 C 128 102, 118 126, 82 126 L 42 126 Z
+             M 60 52 L 60 108 L 82 108 C 104 108, 110 96, 110 80 C 110 64, 104 52, 82 52 Z"
+          fill="#0D0D0D"/>
+    <text x="82" y="92" font-family="monospace" font-size="34" font-weight="bold"
+          fill="#00FF88" text-anchor="middle">&lt;/&gt;</text>
+  </g>
+
+  <!-- Nome da empresa -->
+  <text x="540" y="340" font-family="'Space Grotesk', sans-serif"
+        font-size="72" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-2">
+    Dyona Software
+  </text>
+  <text x="540" y="420" font-family="'Space Grotesk', sans-serif"
+        font-size="72" font-weight="700" fill="#a29bfe" text-anchor="middle" letter-spacing="-2">
+    Compani
+  </text>
+
+  <!-- Linha decorativa -->
+  <rect x="440" y="460" width="200" height="4" rx="2" fill="url(#linhaPost)"/>
+
+  <!-- Frase marcante -->
+  <text x="540" y="545" font-family="'Inter', sans-serif"
+        font-size="34" fill="#b8b8b8" text-anchor="middle">
+    Transformamos ideias em
+  </text>
+  <text x="540" y="600" font-family="'Space Grotesk', sans-serif"
+        font-size="52" font-weight="700" fill="#00FF88" text-anchor="middle">
+    código e realidade
+  </text>
+
+  <!-- Serviços em 3 blocos -->
+  <!-- Bloco 1 -->
+  <g transform="translate(90, 680)">
+    <rect x="0" y="0" width="280" height="180" rx="20" 
+          fill="#141414" stroke="#1f1f1f" stroke-width="1.5"/>
+    <text x="140" y="70" font-family="sans-serif" font-size="48" text-anchor="middle">🌐</text>
+    <text x="140" y="115" font-family="'Space Grotesk', sans-serif"
+          font-size="26" font-weight="700" fill="#6C5CE7" text-anchor="middle">SITES</text>
+    <text x="140" y="145" font-family="'Inter', sans-serif"
+          font-size="16" fill="#b8b8b8" text-anchor="middle">Profissionais &amp; rápidos</text>
+  </g>
+
+  <!-- Bloco 2 -->
+  <g transform="translate(400, 680)">
+    <rect x="0" y="0" width="280" height="180" rx="20" 
+          fill="#141414" stroke="#6C5CE7" stroke-width="1.5"/>
+    <text x="140" y="70" font-family="sans-serif" font-size="48" text-anchor="middle">💻</text>
+    <text x="140" y="115" font-family="'Space Grotesk', sans-serif"
+          font-size="26" font-weight="700" fill="#6C5CE7" text-anchor="middle">SISTEMAS</text>
+    <text x="140" y="145" font-family="'Inter', sans-serif"
+          font-size="16" fill="#b8b8b8" text-anchor="middle">Web completos</text>
+  </g>
+
+  <!-- Bloco 3 -->
+  <g transform="translate(710, 680)">
+    <rect x="0" y="0" width="280" height="180" rx="20" 
+          fill="#141414" stroke="#1f1f1f" stroke-width="1.5"/>
+    <text x="140" y="70" font-family="sans-serif" font-size="48" text-anchor="middle">🚀</text>
+    <text x="140" y="115" font-family="'Space Grotesk', sans-serif"
+          font-size="26" font-weight="700" fill="#6C5CE7" text-anchor="middle">SOFTWARES</text>
+    <text x="140" y="145" font-family="'Inter', sans-serif"
+          font-size="16" fill="#b8b8b8" text-anchor="middle">Sob medida</text>
+  </g>
+
+  <!-- CTA final -->
+  <text x="540" y="950" font-family="'Inter', sans-serif"
+        font-size="22" fill="#b8b8b8" text-anchor="middle">
+    Entre em contato:
+  </text>
+  <text x="540" y="990" font-family="'Space Grotesk', sans-serif"
+        font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">
+    dyonasoftwarecompani@gmail.com
+  </text>
+  <text x="540" y="1030" font-family="'Space Grotesk', sans-serif"
+        font-size="24" font-weight="600" fill="#a29bfe" text-anchor="middle">
+    @dyonasoftwarecompani
+  </text>
+</svg>

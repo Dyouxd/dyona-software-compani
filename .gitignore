@@ -13,3 +13,5 @@ Desktop.ini
 # Node (para futuros projetos)
 node_modules/
 .env 
+.vercel
+.env*

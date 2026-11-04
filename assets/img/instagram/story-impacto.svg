@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <!-- Fundo gradiente -->
+    <linearGradient id="bgImpact" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D0D0D"/>
+      <stop offset="100%" stop-color="#1a1140"/>
+    </linearGradient>
+
+    <!-- Glow principal roxo -->
+    <radialGradient id="glowImpact" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#6C5CE7" stop-opacity="0.7"/>
+      <stop offset="60%" stop-color="#6C5CE7" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#6C5CE7" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Glow verde inferior -->
+    <radialGradient id="glowImpactGreen" cx="50%" cy="85%" r="45%">
+      <stop offset="0%" stop-color="#00FF88" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00FF88" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Gradiente do texto -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#00FF88"/>
+    </linearGradient>
+
+    <!-- Gradiente da logo -->
+    <linearGradient id="logoImpact" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#a29bfe"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo -->
+  <rect width="1080" height="1920" fill="url(#bgImpact)"/>
+  <circle cx="540" cy="800" r="700" fill="url(#glowImpact)"/>
+  <circle cx="540" cy="1650" r="500" fill="url(#glowImpactGreen)"/>
+
+  <!-- Moldura fina decorativa -->
+  <rect x="50" y="50" width="980" height="1820" rx="40" 
+        fill="none" stroke="#6C5CE7" stroke-width="2" opacity="0.25"/>
+  <rect x="70" y="70" width="940" height="1780" rx="30" 
+        fill="none" stroke="#00FF88" stroke-width="1" opacity="0.15"/>
+
+  <!-- Logo no topo -->
+  <g transform="translate(460, 180)">
+    <rect x="0" y="0" width="160" height="160" rx="40" fill="url(#logoImpact)"/>
+    <rect x="0" y="0" width="160" height="160" rx="40" 
+          fill="none" stroke="#a29bfe" stroke-width="2" opacity="0.6"/>
+    <path d="M 42 34 L 82 34 C 118 34, 128 58, 128 80 C 128 102, 118 126, 82 126 L 42 126 Z
+             M 60 52 L 60 108 L 82 108 C 104 108, 110 96, 110 80 C 110 64, 104 52, 82 52 Z"
+          fill="#0D0D0D"/>
+    <text x="82" y="92" font-family="monospace" font-size="34" font-weight="bold"
+          fill="#00FF88" text-anchor="middle">&lt;/&gt;</text>
+  </g>
+
+  <!-- Pílula pequena em cima -->
+  <rect x="390" y="410" width="300" height="60" rx="30" 
+        fill="#6C5CE7" fill-opacity="0.15" stroke="#6C5CE7" stroke-width="1.5"/>
+  <text x="540" y="450" font-family="'Inter', sans-serif" 
+        font-size="24" font-weight="600" fill="#a29bfe" text-anchor="middle" letter-spacing="3">
+    SOFTWARE · WEB · DEV
+  </text>
+
+  <!-- TÍTULO GIGANTE -->
+  <text x="540" y="640" font-family="'Space Grotesk', sans-serif"
+        font-size="118" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-3">
+    IDEIAS
+  </text>
+  <text x="540" y="770" font-family="'Space Grotesk', sans-serif"
+        font-size="118" font-weight="700" fill="#b8b8b8" text-anchor="middle" letter-spacing="-3">
+    VIRAM
+  </text>
+  <text x="540" y="920" font-family="'Space Grotesk', sans-serif"
+        font-size="145" font-weight="700" fill="url(#textGrad)" text-anchor="middle" letter-spacing="-4">
+    CÓDIGO
+  </text>
+
+  <!-- Linha decorativa -->
+  <rect x="440" y="990" width="200" height="5" rx="2.5" fill="#00FF88"/>
+
+  <!-- Subtítulo -->
+  <text x="540" y="1100" font-family="'Inter', sans-serif"
+        font-size="42" fill="#ffffff" text-anchor="middle" opacity="0.9">
+    e ideias viram
+  </text>
+  <text x="540" y="1160" font-family="'Space Grotesk', sans-serif"
+        font-size="56" font-weight="700" fill="#ffffff" text-anchor="middle">
+    soluções digitais
+  </text>
+
+  <!-- 3 serviços em chips horizontais -->
+  <g transform="translate(190, 1290)">
+    <rect x="0" y="0" width="220" height="70" rx="35" 
+          fill="#141414" stroke="#6C5CE7" stroke-width="1.5"/>
+    <text x="110" y="45" font-family="'Inter', sans-serif"
+          font-size="26" font-weight="600" fill="#ffffff" text-anchor="middle">
+      🌐 Sites
+    </text>
+  </g>
+
+  <g transform="translate(430, 1290)">
+    <rect x="0" y="0" width="220" height="70" rx="35" 
+          fill="#141414" stroke="#00FF88" stroke-width="1.5"/>
+    <text x="110" y="45" font-family="'Inter', sans-serif"
+          font-size="26" font-weight="600" fill="#ffffff" text-anchor="middle">
+      💻 Sistemas
+    </text>
+  </g>
+
+  <g transform="translate(670, 1290)">
+    <rect x="0" y="0" width="220" height="70" rx="35" 
+          fill="#141414" stroke="#6C5CE7" stroke-width="1.5"/>
+    <text x="110" y="45" font-family="'Inter', sans-serif"
+          font-size="26" font-weight="600" fill="#ffffff" text-anchor="middle">
+      🚀 Softwares
+    </text>
+  </g>
+
+  <!-- Área reservada para o sticker de LINK do Instagram -->
+  <rect x="290" y="1470" width="500" height="100" rx="50" 
+        fill="none" stroke="#00FF88" stroke-width="3" stroke-dasharray="14 10" opacity="0.55"/>
+  <text x="540" y="1530" font-family="'Inter', sans-serif"
+        font-size="26" fill="#00FF88" text-anchor="middle" opacity="0.8">
+    [ cole o sticker de LINK aqui ]
+  </text>
+
+  <!-- CTA -->
+  <text x="540" y="1680" font-family="'Space Grotesk', sans-serif"
+        font-size="38" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="2">
+    DYONA SOFTWARE COMPANI
+  </text>
+
+  <!-- Handle -->
+  <text x="540" y="1780" font-family="'Space Grotesk', sans-serif"
+        font-size="34" font-weight="700" fill="#a29bfe" text-anchor="middle">
+    @dyonasoftwarecompani
+  </text>
+
+</svg>

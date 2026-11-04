@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C5CE0"/>
+      <stop offset="100%" stop-color="#5D3FB8"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F0EBFF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="250" fill="url(#bg)"/>
+  <circle cx="50" cy="40" r="80" fill="#FFFFFF" opacity="0.05"/>
+  <circle cx="350" cy="220" r="100" fill="#FFFFFF" opacity="0.05"/>
+
+  <path d="M100 60 L140 200 L100 175 L60 200 Z" fill="url(#arrow)" opacity="0.95"/>
+  <circle cx="100" cy="140" r="30" fill="#7C5CE0" stroke="#FFFFFF" stroke-width="3"/>
+
+  <text x="180" y="120" font-family="Arial, sans-serif" font-size="46" font-weight="900" fill="#FFFFFF">DestinoZ</text>
+  <text x="182" y="148" font-family="Arial, sans-serif" font-size="16" font-weight="500" fill="#00E676" letter-spacing="2">ROTAS PARA ENTREGADORES</text>
+
+  <rect x="310" y="20" width="70" height="26" rx="13" fill="#00E676"/>
+  <text x="345" y="38" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0A0612" text-anchor="middle">NOVO</text>
+
+  <text x="200" y="225" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" opacity="0.7" text-anchor="middle">by Dyona Software Compani</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="voyagerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af7a"/>
+      <stop offset="100%" stop-color="#b48a4e"/>
+    </linearGradient>
+    <radialGradient id="voyagerGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Fundo dourado -->
+  <rect width="600" height="400" fill="url(#voyagerBg)"/>
+  <circle cx="300" cy="180" r="220" fill="url(#voyagerGlow)"/>
+
+  <!-- Ícone do diamante (mesma identidade do site) -->
+  <g transform="translate(300, 170) rotate(45)">
+    <rect x="-40" y="-40" width="80" height="80" rx="12" fill="#ffffff" opacity="0.95"/>
+  </g>
+  
+  <!-- Detalhe interno do diamante -->
+  <g transform="translate(300, 170) rotate(45)">
+    <rect x="-20" y="-20" width="40" height="40" rx="6" fill="#d4af7a"/>
+  </g>
+
+  <!-- Texto elegante abaixo -->
+  <text x="300" y="290" font-family="'Playfair Display', serif"
+        font-size="42" font-weight="700" fill="#0D0D0D" text-anchor="middle" letter-spacing="2">
+    VOYAGER
+  </text>
+  
+  <text x="300" y="325" font-family="'Inter', sans-serif"
+        font-size="16" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="4">
+    PLANEJAMENTO DE VIAGENS
+  </text>
+</svg>

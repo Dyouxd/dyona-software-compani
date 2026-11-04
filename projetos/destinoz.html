@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DestinoZ | Dyona Software Compani</title>
+  <meta name="description" content="DestinoZ - App Android de rotas inteligentes para entregadores.">
+  <link rel="icon" type="image/svg+xml" href="../assets/img/logo-icon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .project-hero {
+      padding: 4rem 5% 2rem;
+      text-align: center;
+      background: linear-gradient(180deg, rgba(124,92,224,0.15), transparent);
+      border-bottom: 1px solid rgba(124,92,224,0.2);
+    }
+    .project-hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 1rem; }
+    .project-hero h1 span { color: #7C5CE0; }
+    .project-hero p { color: var(--cinza); max-width: 700px; margin: 0 auto 2rem; font-size: 1.1rem; line-height: 1.6; }
+    .project-hero-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .project-hero-badge { display: inline-block; background: #00E676; color: #0A0612; padding: 6px 16px; border-radius: 20px; font-size: 13px; font-weight: bold; margin-bottom: 1rem; }
+    .features-list { max-width: 900px; margin: 0 auto; padding: 2rem 5%; }
+    .feature-item { display: flex; gap: 20px; padding: 20px; margin-bottom: 16px; background: rgba(255,255,255,0.03); border-radius: 12px; border: 1px solid rgba(124,92,224,0.15); }
+    .feature-item-icon { font-size: 36px; flex-shrink: 0; }
+    .feature-item h3 { margin: 0 0 8px; color: #fff; }
+    .feature-item p { margin: 0; color: var(--cinza); line-height: 1.6; }
+    .tech-stack { text-align: center; padding: 3rem 5%; background: #0a0a0a; }
+    .tech-stack h2 { margin-bottom: 2rem; }
+    .tech-tags { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; max-width: 800px; margin: 0 auto; }
+    .tech-tag { background: rgba(124,92,224,0.15); color: #9B7FF0; padding: 8px 16px; border-radius: 20px; font-size: 14px; font-weight: 500; border: 1px solid rgba(124,92,224,0.3); }
+    .cta-final { text-align: center; padding: 4rem 5%; background: linear-gradient(180deg, transparent, rgba(124,92,224,0.1)); }
+    .cta-final h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); margin-bottom: 1rem; }
+    .cta-final p { color: var(--cinza); margin-bottom: 2rem; }
+    .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; max-width: 900px; margin: 2rem auto; padding: 0 5%; }
+    .info-item { text-align: center; padding: 20px; background: rgba(255,255,255,0.03); border-radius: 12px; border: 1px solid rgba(124,92,224,0.15); }
+    .info-item strong { display: block; font-size: 1.8rem; color: #7C5CE0; margin-bottom: 4px; }
+    .info-item span { color: var(--cinza); font-size: 13px; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../index.html" class="nav-logo">
+      <img src="../assets/img/logo.svg" alt="Dyona Software Compani">
+    </a>
+    <button class="menu-toggle" aria-label="Menu">&#9776;</button>
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../projetos.html">Projetos</a></li>
+      <li><a href="../sobre.html">Sobre</a></li>
+      <li><a href="../contato.html">Contato</a></li>
+    </ul>
+  </nav>
+
+  <header class="project-hero">
+    <div class="project-hero-badge">NOVO</div>
+    <h1><span>DestinoZ</span></h1>
+    <p>App Android de rotas inteligentes para entregadores. Otimize suas entregas, navegue pelas ruas e economize tempo em cada rota.</p>
+    <div class="project-hero-actions">
+      <a href="https://destinoz.vercel.app" target="_blank" class="btn btn-primary">Baixar App</a>
+      <a href="https://destinoz.vercel.app" target="_blank" class="btn btn-outline">Ver Site</a>
+    </div>
+  </header>
+
+  <section>
+    <div class="info-grid">
+      <div class="info-item"><strong>3</strong><span>Rotas gratis/dia</span></div>
+      <div class="info-item"><strong>21 MB</strong><span>Tamanho do app</span></div>
+      <div class="info-item"><strong>Android 7+</strong><span>Compatibilidade</span></div>
+      <div class="info-item"><strong>100%</strong><span>Gratuito</span></div>
+    </div>
+  </section>
+
+  <section style="background:#0a0a0a;">
+    <h2 class="section-title">Recursos <span>Principais</span></h2>
+    <div class="features-list">
+      <div class="feature-item">
+        <div class="feature-item-icon">&#128506;</div>
+        <div><h3>Rotas otimizadas automaticamente</h3><p>O algoritmo calcula a melhor ordem das paradas em segundos. Menos km percorridos, mais entregas por dia.</p></div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-item-icon">&#129517;</div>
+        <div><h3>Navegacao tipo GPS</h3><p>Seta de direcao, velocidade em tempo real e rota tracada pelas ruas. O mapa gira conforme voce anda.</p></div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-item-icon">&#128205;</div>
+        <div><h3>Busca inteligente com numero</h3><p>Encontre enderecos ou pontos de referencia com prioridade na sua regiao. Digite o numero exato do local.</p></div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-item-icon">&#128506;</div>
+        <div><h3>Google Maps e Waze integrados</h3><p>Prefere outro app? Envie a rota completa em 1 toque para o Google Maps ou a proxima parada para o Waze.</p></div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-item-icon">&#128190;</div>
+        <div><h3>Rotas salvas no celular</h3><p>Feche o app e continue de onde parou. Nada se perde. Todas as rotas ficam salvas localmente.</p></div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-item-icon">&#128202;</div>
+        <div><h3>Acompanhe o progresso</h3><p>Veja quantas entregas faltam, distancia percorrida e tempo estimado em tempo real.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tech-stack">
+    <h2 class="section-title">Tecnologias <span>Usadas</span></h2>
+    <div class="tech-tags">
+      <span class="tech-tag">Kotlin</span>
+      <span class="tech-tag">Jetpack Compose</span>
+      <span class="tech-tag">Android Nativo</span>
+      <span class="tech-tag">OpenStreetMap</span>
+      <span class="tech-tag">OSRM API</span>
+      <span class="tech-tag">Nominatim</span>
+      <span class="tech-tag">AdMob</span>
+    </div>
+  </section>
+
+  <section class="cta-final">
+    <h2>Pronto para otimizar suas <span style="color:#7C5CE0;">entregas</span>?</h2>
+    <p>Baixe o DestinoZ agora e comece a economizar tempo e combustivel.</p>
+    <a href="https://destinoz.vercel.app" target="_blank" class="btn btn-primary" style="font-size:1.1rem; padding: 16px 32px;">Baixar para Android</a>
+  </section>
+
+  <footer style="text-align:center; padding:2rem 5%; color:var(--cinza); border-top:1px solid rgba(124,92,224,0.15);">
+    <p>&copy; 2026 Dyona Software Compani. Todos os direitos reservados.</p>
+    <p style="font-size:13px; margin-top:8px;">
+      <a href="../index.html" style="color:#9B7FF0;">Voltar para o inicio</a>
+    </p>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

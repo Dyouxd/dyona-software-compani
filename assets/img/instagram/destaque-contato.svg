@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="roxoCT" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#a29bfe"/>
+    </linearGradient>
+    <radialGradient id="glowCT" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6C5CE7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#6C5CE7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="#0D0D0D"/>
+  <circle cx="540" cy="480" r="450" fill="url(#glowCT)"/>
+
+  <circle cx="540" cy="480" r="200" fill="url(#roxoCT)"/>
+  <text x="540" y="560" font-family="sans-serif" font-size="200" text-anchor="middle">📩</text>
+
+  <text x="540" y="850" font-family="'Space Grotesk', sans-serif"
+        font-size="80" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="2">
+    CONTATO
+  </text>
+</svg>
